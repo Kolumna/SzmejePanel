@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .input-text {
+    @apply text-5xl outline-none placeholder:text-gray-400 p-2 bg-gray-100 rounded-lg focus:bg-gray-300 font-bold focus:outline-none transition-all duration-200
+  }
+}
+
+@tailwind utilities;
