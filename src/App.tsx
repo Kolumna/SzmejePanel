@@ -3,6 +3,7 @@ import AccountForm from "./components/AccountForm";
 import AdressForm from "./components/AdressForm";
 import useMultistepForm from "./components/useMultistepForm";
 import UserForm from "./components/UserForm";
+import logo from "./pictures/logoSzmeje.png"
 
 function App() {
   function onSubmit(e: FormEvent) {
@@ -55,7 +56,7 @@ function App() {
       </div>
       <div className=" flex justify-center items-center w-1/3">
         <div className=" flex justify-center items-center text-6xl font-black gap-4">
-          <img src="./src/pictures/logoSzmeje.png" />
+          <img src={logo} />
           <div className=" h-[225px]">
             <p>Uczeń</p>
             <p>Szmeje</p>
