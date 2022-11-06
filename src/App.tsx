@@ -55,7 +55,7 @@ function App() {
       </div>
       <div className=" flex justify-center items-center w-1/3">
         <div className=" flex justify-center items-center text-6xl font-black gap-4">
-          <img src="/src/pictures/logoSzmeje.png" />
+          <img src="./src/pictures/logoSzmeje.png" />
           <div className=" h-[225px]">
             <p>Uczeń</p>
             <p>Szmeje</p>
